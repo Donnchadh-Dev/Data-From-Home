@@ -2,7 +2,7 @@ import pyowm
 import pprint
 
 # OWM API Key
-owm = pyowm.OWM('c8421d8b2e7baa3c4d7b5b07b5e175a3')
+owm = pyowm.OWM('API-KEY')
 
 # OWM Pro Subscription
 # owm = pyowm.OWM(API_key='your-API-key', subscription_type='pro')
