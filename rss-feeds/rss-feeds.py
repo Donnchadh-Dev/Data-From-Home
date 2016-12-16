@@ -13,7 +13,7 @@ def getHeadlines( rss_url ):
     feed = parseRSS( rss_url )
     for newsitem in feed['items']:
         headlines.append(newsitem['title'])
-    
+
     return headlines
  
 # A list to hold all headlines
@@ -33,6 +33,8 @@ for key,url in newsurls.items():
 # Iterate over the allheadlines list and print each headline
 for hl in allheadlines:
     print(hl)
- 
+    print
+    print("----------------------------------------------------------------")
+    print
  
 # end of code 
